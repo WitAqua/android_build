@@ -1916,7 +1916,7 @@ function repopick() {
 
 function arrow_prebuilts() {
     if [ -z ${ARROW_PREBUILTS} ]; then
-        bash $ANDROID_BUILD_TOP/packages/apps/ArrowPrebuilts/ArrowPrebuilts.sh
+        bash $ANDROID_BUILD_TOP/packages/apps/WitAquaPrebuilts/ArrowPrebuilts.sh
         export ARROW_PREBUILTS=1
     fi
 }
